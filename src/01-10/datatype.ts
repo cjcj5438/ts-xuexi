@@ -10,26 +10,26 @@ let tupletype: [number, string] = [0, '2']
 //1
 let addtype = (x: number, y: number): number => x + y
 //2
-let compute:(x:number,y:number)=>number
-compute=(x,y)=>x+y
+let compute: (x: number, y: number) => number = (x, y) => x + y
 
+// compute =
 
 // object
-let objtype:{x:number,y:number} ={x:1,y:2}
+let objtype: { x: number, y: number } = { x: 1, y: 2 }
 
 // symbol
-let s1type:symbol=Symbol()
-let s2type:symbol=Symbol()
-console.log(s1type===s2type)
+let s1type: symbol = Symbol()
+let s2type: symbol = Symbol()
+console.log(s1type === s2type)
 
 // undefined , null
-let untype:undefined= undefined
-let untype2:null=null
-let numtyoes:number|undefined|null=null
+let untype: undefined = undefined
+let untype2: null = null
+let numtyoes: number | undefined | null = null
 
 
 // void
-let noReturn = ()=>{}
+let noReturn = () => { }
 
 // any
 let a

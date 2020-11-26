@@ -1,3 +1,7 @@
+/**
+ * 接口 只声明成员  不做实现。做约束的
+ */
+
 let add07: (x: number, y: number) => number
 interface Add07 {
     (x: number, y: number): number
