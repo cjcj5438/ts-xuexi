@@ -15,13 +15,13 @@ class Dog11 extends Animal {
     this.name = name;
   }
   public name: string; // name属性在实例上不在原型上，且必须有初始值
-  run() {} // 这在原型上
+  run() { } // 这在原型上
 
   sleep() {
     console.log('dog sleep')
   }
 }
-        class Cat11 extends Animal {
+class Cat11 extends Animal {
   // 继承抽象类的时候可以 不用写 constructor  ？
   sleep() {
     console.log('cat sleep')
@@ -87,7 +87,7 @@ let adsf = {
   {
     {
       {
-        {}
+        { }
       }
     }
   }

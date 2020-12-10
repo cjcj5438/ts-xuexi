@@ -15,4 +15,3 @@ let foo15: Foo15 = {
   bar: 13212456787
 }
 console.log(foo15.bar)
-
