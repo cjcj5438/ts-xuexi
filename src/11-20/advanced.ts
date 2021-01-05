@@ -10,8 +10,9 @@ interface Foo15 {
 }
 // let foo15 = {} as Foo15
 // foo15.bar = 1
-// 其实比较好的是在声明的时候，就声明
+// 其实比较好的是在声明的时候，就声明类型
 let foo15: Foo15 = {
   bar: 13212456787
 }
 console.log(foo15.bar)
+
